@@ -5,6 +5,7 @@ def consecutive_ints(aString):
 	""" 
 	Takes a string and parses for integers, 
 	returning True or False if two numbers are next to each other 
+	e.g. "CAT1 DOG2" is False / "COW123" is True
 	"""
 	counter = 0
 	indexes = []
